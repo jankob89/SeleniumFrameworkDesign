@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-25T10:34:54 CEST" name="Full regres" finished-at="2023-05-25T10:38:17 CEST" duration-ms="203256">
+    <groups>
+    </groups>
+    <test started-at="2023-05-25T10:34:54 CEST" name="Test" finished-at="2023-05-25T10:38:17 CEST" duration-ms="203256">
+      <class name="com.tests.CartTests">
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:34:54 CEST" name="lanuchApplication" finished-at="2023-05-25T10:35:15 CEST" duration-ms="21181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:34:54 CEST" name="lanuchApplication" finished-at="2023-05-25T10:35:13 CEST" duration-ms="19172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:34:54 CEST" name="lanuchApplication" finished-at="2023-05-25T10:35:14 CEST" duration-ms="20313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method signature="increaceAndVerifyQuantityOfProductInCart_whileIncreasedQuantityInProductDetails()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:35:13 CEST" name="increaceAndVerifyQuantityOfProductInCart_whileIncreasedQuantityInProductDetails" finished-at="2023-05-25T10:35:17 CEST" duration-ms="4212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- increaceAndVerifyQuantityOfProductInCart_whileIncreasedQuantityInProductDetails -->
+        <test-method signature="verifyProductIsAddedCorectlyToCart()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:35:14 CEST" name="verifyProductIsAddedCorectlyToCart" finished-at="2023-05-25T10:35:25 CEST" duration-ms="10754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductIsAddedCorectlyToCart -->
+        <test-method signature="verifyProductsAreAddedCorectlyToCart()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:35:15 CEST" name="verifyProductsAreAddedCorectlyToCart" finished-at="2023-05-25T10:35:24 CEST" duration-ms="8782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsAreAddedCorectlyToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:35:17 CEST" name="tearDown" finished-at="2023-05-25T10:35:17 CEST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:35:17 CEST" name="lanuchApplication" finished-at="2023-05-25T10:35:33 CEST" duration-ms="16126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:35:24 CEST" name="tearDown" finished-at="2023-05-25T10:35:24 CEST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:35:24 CEST" name="lanuchApplication" finished-at="2023-05-25T10:35:35 CEST" duration-ms="11054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:35:25 CEST" name="tearDown" finished-at="2023-05-25T10:35:25 CEST" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:35:25 CEST" name="lanuchApplication" finished-at="2023-05-25T10:35:37 CEST" duration-ms="11423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method signature="verifyrProduct_TotalAmount()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:35:33 CEST" name="verifyrProduct_TotalAmount" finished-at="2023-05-25T10:35:55 CEST" duration-ms="21903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyrProduct_TotalAmount -->
+        <test-method signature="verifyrProduct_priceQuantityTotalMultiplied()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:35:35 CEST" name="verifyrProduct_priceQuantityTotalMultiplied" finished-at="2023-05-25T10:35:42 CEST" duration-ms="6788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyrProduct_priceQuantityTotalMultiplied -->
+        <test-method signature="increaceAndVerifyQuantityOfProductInCart_byAddingTwiceTheSameProduct()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:35:37 CEST" name="increaceAndVerifyQuantityOfProductInCart_byAddingTwiceTheSameProduct" finished-at="2023-05-25T10:35:41 CEST" duration-ms="4262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- increaceAndVerifyQuantityOfProductInCart_byAddingTwiceTheSameProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:35:41 CEST" name="tearDown" finished-at="2023-05-25T10:35:41 CEST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:35:42 CEST" name="tearDown" finished-at="2023-05-25T10:35:42 CEST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:35:55 CEST" name="tearDown" finished-at="2023-05-25T10:35:56 CEST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:37:29 CEST" name="lanuchApplication" finished-at="2023-05-25T10:37:46 CEST" duration-ms="16502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:37:30 CEST" name="lanuchApplication" finished-at="2023-05-25T10:37:46 CEST" duration-ms="15804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method signature="removeProductFromCart()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:37:46 CEST" name="removeProductFromCart" finished-at="2023-05-25T10:37:51 CEST" depends-on-methods="com.tests.CartTests.verifyrProduct_priceQuantityTotalMultiplied" duration-ms="5226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCart -->
+        <test-method signature="removeAllProductFromCart()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:37:46 CEST" name="removeAllProductFromCart" finished-at="2023-05-25T10:37:52 CEST" depends-on-methods="com.tests.CartTests.verifyrProduct_TotalAmount" duration-ms="5593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeAllProductFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:37:51 CEST" name="tearDown" finished-at="2023-05-25T10:37:51 CEST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.CartTests@43f02ef2]" started-at="2023-05-25T10:37:52 CEST" name="tearDown" finished-at="2023-05-25T10:37:52 CEST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.CartTests -->
+      <class name="com.tests.ContactUsTests">
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.ContactUsTests@782859e]" started-at="2023-05-25T10:35:41 CEST" name="lanuchApplication" finished-at="2023-05-25T10:35:57 CEST" duration-ms="15918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method signature="sendQuestionWithFile()[pri:0, instance:com.tests.ContactUsTests@782859e]" started-at="2023-05-25T10:35:57 CEST" name="sendQuestionWithFile" finished-at="2023-05-25T10:36:01 CEST" duration-ms="4078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendQuestionWithFile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.ContactUsTests@782859e]" started-at="2023-05-25T10:36:01 CEST" name="tearDown" finished-at="2023-05-25T10:36:02 CEST" duration-ms="738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.ContactUsTests -->
+      <class name="com.tests.ProductsTests">
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.ProductsTests@821330f]" started-at="2023-05-25T10:36:52 CEST" name="lanuchApplication" finished-at="2023-05-25T10:37:04 CEST" duration-ms="12427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.ProductsTests@821330f]" started-at="2023-05-25T10:36:53 CEST" name="lanuchApplication" finished-at="2023-05-25T10:37:04 CEST" duration-ms="11316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method signature="verifyAllProductsRelatedToSearchAreVisible()[pri:0, instance:com.tests.ProductsTests@821330f]" started-at="2023-05-25T10:37:04 CEST" name="verifyAllProductsRelatedToSearchAreVisible" finished-at="2023-05-25T10:37:09 CEST" duration-ms="4855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllProductsRelatedToSearchAreVisible -->
+        <test-method signature="verifyProductDetailsValue()[pri:0, instance:com.tests.ProductsTests@821330f]" started-at="2023-05-25T10:37:04 CEST" name="verifyProductDetailsValue" finished-at="2023-05-25T10:37:07 CEST" duration-ms="2394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductDetailsValue -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.ProductsTests@821330f]" started-at="2023-05-25T10:37:07 CEST" name="tearDown" finished-at="2023-05-25T10:37:07 CEST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.ProductsTests@821330f]" started-at="2023-05-25T10:37:07 CEST" name="lanuchApplication" finished-at="2023-05-25T10:37:22 CEST" duration-ms="15361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.ProductsTests@821330f]" started-at="2023-05-25T10:37:09 CEST" name="tearDown" finished-at="2023-05-25T10:37:09 CEST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyProductDetailsVisibility()[pri:0, instance:com.tests.ProductsTests@821330f]" started-at="2023-05-25T10:37:22 CEST" name="verifyProductDetailsVisibility" finished-at="2023-05-25T10:37:30 CEST" duration-ms="7691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductDetailsVisibility -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.ProductsTests@821330f]" started-at="2023-05-25T10:37:30 CEST" name="tearDown" finished-at="2023-05-25T10:37:30 CEST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.ProductsTests -->
+      <class name="com.tests.ExternalLinksTests">
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.ExternalLinksTests@23f5b5dc]" started-at="2023-05-25T10:35:42 CEST" name="lanuchApplication" finished-at="2023-05-25T10:35:55 CEST" duration-ms="12979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method signature="verifyVideoTutorialsResponseCode()[pri:0, instance:com.tests.ExternalLinksTests@23f5b5dc]" started-at="2023-05-25T10:35:55 CEST" name="verifyVideoTutorialsResponseCode" finished-at="2023-05-25T10:35:56 CEST" duration-ms="1025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVideoTutorialsResponseCode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.ExternalLinksTests@23f5b5dc]" started-at="2023-05-25T10:35:56 CEST" name="tearDown" finished-at="2023-05-25T10:35:56 CEST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.ExternalLinksTests -->
+      <class name="com.tests.SignupTests">
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.SignupTests@6f43c82]" started-at="2023-05-25T10:37:09 CEST" name="lanuchApplication" finished-at="2023-05-25T10:37:23 CEST" duration-ms="13771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.SignupTests@6f43c82]" started-at="2023-05-25T10:37:14 CEST" name="lanuchApplication" finished-at="2023-05-25T10:37:27 CEST" duration-ms="12931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method signature="signinWithCorrectData()[pri:0, instance:com.tests.SignupTests@6f43c82]" started-at="2023-05-25T10:37:23 CEST" name="signinWithCorrectData" finished-at="2023-05-25T10:37:29 CEST" duration-ms="5632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signinWithCorrectData -->
+        <test-method signature="signinWithExsistingEmail()[pri:0, instance:com.tests.SignupTests@6f43c82]" started-at="2023-05-25T10:37:27 CEST" name="signinWithExsistingEmail" finished-at="2023-05-25T10:37:28 CEST" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signinWithExsistingEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.SignupTests@6f43c82]" started-at="2023-05-25T10:37:28 CEST" name="tearDown" finished-at="2023-05-25T10:37:28 CEST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.SignupTests@6f43c82]" started-at="2023-05-25T10:37:28 CEST" name="lanuchApplication" finished-at="2023-05-25T10:37:45 CEST" duration-ms="16465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.SignupTests@6f43c82]" started-at="2023-05-25T10:37:29 CEST" name="tearDown" finished-at="2023-05-25T10:37:29 CEST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifySignupFieldsAreRequired()[pri:0, instance:com.tests.SignupTests@6f43c82]" started-at="2023-05-25T10:37:45 CEST" name="verifySignupFieldsAreRequired" finished-at="2023-05-25T10:37:46 CEST" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignupFieldsAreRequired -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.SignupTests@6f43c82]" started-at="2023-05-25T10:37:46 CEST" name="tearDown" finished-at="2023-05-25T10:37:46 CEST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.SignupTests@6f43c82]" started-at="2023-05-25T10:37:51 CEST" name="lanuchApplication" finished-at="2023-05-25T10:38:09 CEST" duration-ms="17623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method signature="removeCreatedAccount()[pri:0, instance:com.tests.SignupTests@6f43c82]" started-at="2023-05-25T10:38:09 CEST" name="removeCreatedAccount" finished-at="2023-05-25T10:38:17 CEST" depends-on-methods="com.tests.SignupTests.signinWithCorrectData" duration-ms="7578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeCreatedAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.SignupTests@6f43c82]" started-at="2023-05-25T10:38:17 CEST" name="tearDown" finished-at="2023-05-25T10:38:17 CEST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.SignupTests -->
+      <class name="com.tests.LoginTests">
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.LoginTests@34bde49d]" started-at="2023-05-25T10:35:56 CEST" name="lanuchApplication" finished-at="2023-05-25T10:36:12 CEST" duration-ms="16627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.LoginTests@34bde49d]" started-at="2023-05-25T10:35:56 CEST" name="lanuchApplication" finished-at="2023-05-25T10:36:18 CEST" duration-ms="21497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.LoginTests@34bde49d]" started-at="2023-05-25T10:36:02 CEST" name="lanuchApplication" finished-at="2023-05-25T10:36:15 CEST" duration-ms="12994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method signature="loginWithCorrectData()[pri:0, instance:com.tests.LoginTests@34bde49d]" started-at="2023-05-25T10:36:12 CEST" name="loginWithCorrectData" finished-at="2023-05-25T10:36:15 CEST" duration-ms="2781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectData -->
+        <test-method signature="logoutLoggedUser()[pri:0, instance:com.tests.LoginTests@34bde49d]" started-at="2023-05-25T10:36:15 CEST" name="logoutLoggedUser" finished-at="2023-05-25T10:36:20 CEST" duration-ms="4781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutLoggedUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTests@34bde49d]" started-at="2023-05-25T10:36:15 CEST" name="tearDown" finished-at="2023-05-25T10:36:15 CEST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.LoginTests@34bde49d]" started-at="2023-05-25T10:36:15 CEST" name="lanuchApplication" finished-at="2023-05-25T10:36:31 CEST" duration-ms="15643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method signature="loginWithIncorrectData()[pri:0, instance:com.tests.LoginTests@34bde49d]" started-at="2023-05-25T10:36:18 CEST" name="loginWithIncorrectData" finished-at="2023-05-25T10:36:20 CEST" duration-ms="2278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithIncorrectData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTests@34bde49d]" started-at="2023-05-25T10:36:20 CEST" name="tearDown" finished-at="2023-05-25T10:36:20 CEST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTests@34bde49d]" started-at="2023-05-25T10:36:20 CEST" name="tearDown" finished-at="2023-05-25T10:36:20 CEST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyLoginFieldsAreRequired()[pri:0, instance:com.tests.LoginTests@34bde49d]" started-at="2023-05-25T10:36:31 CEST" name="verifyLoginFieldsAreRequired" finished-at="2023-05-25T10:36:32 CEST" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFieldsAreRequired -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTests@34bde49d]" started-at="2023-05-25T10:36:32 CEST" name="tearDown" finished-at="2023-05-25T10:36:32 CEST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.LoginTests -->
+      <class name="com.tests.PlaceOrderTests">
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.PlaceOrderTests@1b1cfb87]" started-at="2023-05-25T10:36:20 CEST" name="lanuchApplication" finished-at="2023-05-25T10:36:38 CEST" duration-ms="17601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.PlaceOrderTests@1b1cfb87]" started-at="2023-05-25T10:36:20 CEST" name="lanuchApplication" finished-at="2023-05-25T10:36:34 CEST" duration-ms="13891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.PlaceOrderTests@1b1cfb87]" started-at="2023-05-25T10:36:32 CEST" name="lanuchApplication" finished-at="2023-05-25T10:36:41 CEST" duration-ms="9014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method signature="placeOrderAndRegisterWhileCheckout()[pri:0, instance:com.tests.PlaceOrderTests@1b1cfb87]" started-at="2023-05-25T10:36:34 CEST" name="placeOrderAndRegisterWhileCheckout" finished-at="2023-05-25T10:36:52 CEST" duration-ms="17251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderAndRegisterWhileCheckout -->
+        <test-method signature="placeOrderAndLoginWhileCheckout()[pri:0, instance:com.tests.PlaceOrderTests@1b1cfb87]" started-at="2023-05-25T10:36:38 CEST" name="placeOrderAndLoginWhileCheckout" finished-at="2023-05-25T10:36:53 CEST" duration-ms="15176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderAndLoginWhileCheckout -->
+        <test-method signature="placeOrderBeeingLogin()[pri:0, instance:com.tests.PlaceOrderTests@1b1cfb87]" started-at="2023-05-25T10:36:41 CEST" name="placeOrderBeeingLogin" finished-at="2023-05-25T10:37:14 CEST" duration-ms="32783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderBeeingLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.PlaceOrderTests@1b1cfb87]" started-at="2023-05-25T10:36:52 CEST" name="tearDown" finished-at="2023-05-25T10:36:52 CEST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.PlaceOrderTests@1b1cfb87]" started-at="2023-05-25T10:36:53 CEST" name="tearDown" finished-at="2023-05-25T10:36:53 CEST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.PlaceOrderTests@1b1cfb87]" started-at="2023-05-25T10:37:14 CEST" name="tearDown" finished-at="2023-05-25T10:37:14 CEST" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.tests.PlaceOrderTests@1b1cfb87]" started-at="2023-05-25T10:37:46 CEST" name="lanuchApplication" finished-at="2023-05-25T10:38:00 CEST" duration-ms="14270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method signature="removeCreatedAccount()[pri:0, instance:com.tests.PlaceOrderTests@1b1cfb87]" started-at="2023-05-25T10:38:00 CEST" name="removeCreatedAccount" finished-at="2023-05-25T10:38:08 CEST" depends-on-methods="com.tests.PlaceOrderTests.placeOrderAndRegisterWhileCheckout" duration-ms="7178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeCreatedAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.PlaceOrderTests@1b1cfb87]" started-at="2023-05-25T10:38:08 CEST" name="tearDown" finished-at="2023-05-25T10:38:08 CEST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.PlaceOrderTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Full regres -->
+</testng-results>
