@@ -81,6 +81,7 @@ public class CheckoutPage extends BasePage {
 	}
 
 	public PaymentPage clickPlaceOrder() {
+		waitUntilVisibilityOf(btnPlaceOrder);
 		btnPlaceOrder.click();
 		return new PaymentPage(driver);
 	}

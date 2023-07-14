@@ -4,7 +4,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.factory.DriverFactory;
 import com.pages.AccountCreatedPage;
 import com.pages.AccountDeletedPage;
 import com.pages.CartPage;
@@ -57,7 +56,7 @@ public class PlaceOrderTests extends BaseTests {
 
 		name = "Testname_" + UniqueNumberCreator.getNumber();
 		email = "correct.email" + UniqueNumberCreator.getNumber() + "@gmail.com";
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		ProductsPage productsPage = homePage.goToProductsPage();
 		productsPage.addProductByName(product);
 		CartPage cartPage = homePage.goToCartPage();
@@ -98,7 +97,7 @@ public class PlaceOrderTests extends BaseTests {
 	@Test
 	public void placeOrderAndLoginWhileCheckout() {
 
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		ProductsPage productsPage = homePage.goToProductsPage();
 		productsPage.addProductByName(product);
 		CartPage cartPage = homePage.goToCartPage();
@@ -120,7 +119,7 @@ public class PlaceOrderTests extends BaseTests {
 	
 	@Test
 	public void placeOrderBeeingLogin() {	
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		LoginPage loginPage = homePage.goToLoginPage();
 		homePage = loginPage.login(emailForLogin, passwordForLogin);
 		ProductsPage productsPage = homePage.goToProductsPage();
@@ -142,7 +141,7 @@ public class PlaceOrderTests extends BaseTests {
 	public void removeCreatedAccount() {
 		final String accountDeletedMsg = "ACCOUNT DELETED!";
 
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		LoginPage loginPage = homePage.goToLoginPage();
 		homePage = loginPage.login(email, password);
 		AccountDeletedPage accountCreatedDeletedPage = homePage.deleteAccount();
@@ -155,7 +154,7 @@ public class PlaceOrderTests extends BaseTests {
 		String fullName = title + " " + firstName + " " + lastName;
 		String fullResidence = cityName + " " + stateName + " " + zipcode;
 
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		LoginPage loginPage = homePage.goToLoginPage();
 		homePage = loginPage.login(emailForLogin, passwordForLogin);
 		ProductsPage productsPage = homePage.goToProductsPage();

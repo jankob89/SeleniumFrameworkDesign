@@ -4,7 +4,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.factory.DriverFactory;
 import com.pages.HomePage;
 import com.pages.LoginPage;
 import com.testcomponents.BaseTests;
@@ -20,7 +19,7 @@ public class LoginTests extends BaseTests {
 	public void loginWithCorrectData() {
 		final String loggedInMsg = "Logged in as " + name;	
 		
-		HomePage homePage = new HomePage(DriverFactory.getDriver());	
+		HomePage homePage = openSite();
 		LoginPage loginPage = homePage.goToLoginPage();
 		homePage = loginPage.login(email, password);
 		Assert.assertEquals(homePage.getLogedinText(), loggedInMsg);
@@ -32,7 +31,7 @@ public class LoginTests extends BaseTests {
 		String incorrectPassword = "incorrect.email@gmail.com";
 		final String incorrectEmailOrPassMsg  = "Your email or password is incorrect!";
 		
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		LoginPage loginPage = homePage.goToLoginPage();
 		loginPage.loginWithIncorrectData(incorrectEmail, incorrectPassword);
 		Assert.assertEquals(loginPage.getIncorrectEmaiPassMsg(), incorrectEmailOrPassMsg);
@@ -40,7 +39,7 @@ public class LoginTests extends BaseTests {
 	
 	@Test
 	public void logoutLoggedUser() {
-		HomePage homePage = new HomePage(DriverFactory.getDriver());		
+		HomePage homePage = openSite();
 		LoginPage loginPage = homePage.goToLoginPage();
 		homePage = loginPage.login(email, password);
 		loginPage = homePage.logout();
@@ -49,7 +48,7 @@ public class LoginTests extends BaseTests {
 	
 	@Test
 	public void verifyLoginFieldsAreRequired() {
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		LoginPage loginPage = homePage.goToLoginPage();
 		SoftAssert softAssert = new SoftAssert();
 		softAssert.assertTrue(loginPage.getLoginEmailFieldRequiredParamValue(), "Field Name is not required!");

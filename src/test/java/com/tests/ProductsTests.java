@@ -4,7 +4,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.factory.DriverFactory;
 import com.pages.HomePage;
 import com.pages.ProductDetailsPage;
 import com.pages.ProductsPage;
@@ -14,7 +13,7 @@ public class ProductsTests extends BaseTests {
 
 	@Test
 	public void verifyProductDetailsVisibility() {
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		ProductsPage productsPage = homePage.goToProductsPage();
 		ProductDetailsPage productDetailsPage = productsPage.goToFirstProductDetails();
 		SoftAssert softAssert = new SoftAssert();
@@ -29,7 +28,7 @@ public class ProductsTests extends BaseTests {
 
 	@Test
 	public void verifyProductDetailsValue() {
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		ProductsPage productsPage = homePage.goToProductsPage();
 		ProductDetailsPage productDetailsPage = productsPage.goToFirstProductDetails();
 		SoftAssert softAssert = new SoftAssert();
@@ -46,7 +45,7 @@ public class ProductsTests extends BaseTests {
 	public void verifyAllProductsRelatedToSearchAreVisible() {
 		int relatedProductsCount = 7;
 		String partialProductName = "Blue";	
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		ProductsPage productsPage = homePage.goToProductsPage();
 		productsPage.searchProduct(partialProductName);
 		Assert.assertEquals(productsPage.getSerchedProductsCount(partialProductName), relatedProductsCount);

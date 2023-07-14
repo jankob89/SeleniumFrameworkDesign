@@ -4,7 +4,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.factory.DriverFactory;
 import com.pages.AccountCreatedPage;
 import com.pages.AccountDeletedPage;
 import com.pages.HomePage;
@@ -23,7 +22,7 @@ public class SignupTests extends BaseTests {
 		final String accountCreatedMsg = "ACCOUNT CREATED!";	
 		String name = "Testname_" + UniqueNumberCreator.getNumber();
 		email = "correct.email" + UniqueNumberCreator.getNumber() + "@gmail.com";	;
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		LoginPage loginPage = homePage.goToLoginPage();
 		SignupPage signupPage = loginPage.signup(name, email);
 		signupPage.enterPassword(password);
@@ -51,7 +50,7 @@ public class SignupTests extends BaseTests {
 	public void removeCreatedAccount() {
 		final String accountDeletedMsg = "ACCOUNT DELETED!";
 
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		LoginPage loginPage = homePage.goToLoginPage();
 		homePage = loginPage.login(email, password);
 		AccountDeletedPage accountDeletedPage = homePage.deleteAccount();
@@ -64,7 +63,7 @@ public class SignupTests extends BaseTests {
 		final String exsistingEmailMsg = "Email Address already exist!";
 		String existingName = "Exsistingname";
 		String existingEmail = "exsisting.email@gmail.com";
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		LoginPage loginPage = homePage.goToLoginPage();
 		loginPage.signupWithIncorrectData(existingName, existingEmail);
 		Assert.assertEquals(loginPage.getExsitingEmailMsg(), exsistingEmailMsg);
@@ -72,7 +71,7 @@ public class SignupTests extends BaseTests {
 
 	@Test
 	public void verifySignupFieldsAreRequired() {
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		LoginPage loginPage = homePage.goToLoginPage();
 		SoftAssert softAssert = new SoftAssert();
 		softAssert.assertTrue(loginPage.getSingupNameFieldRequiredParamValue(), "Field Name is not required!");

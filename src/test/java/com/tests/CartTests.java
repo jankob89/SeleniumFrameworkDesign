@@ -4,7 +4,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.factory.DriverFactory;
 import com.pages.CartPage;
 import com.pages.CheckoutPage;
 import com.pages.HomePage;
@@ -24,7 +23,7 @@ public class CartTests extends BaseTests {
 
 	@Test
 	public void verifyProductIsAddedCorectlyToCart() {
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		ProductsPage productsPage = homePage.goToProductsPage();
 		productsPage.addProductByName(productName);
 		CartPage cartPage = homePage.goToCartPage();
@@ -34,7 +33,7 @@ public class CartTests extends BaseTests {
 
 	@Test
 	public void verifyProductsAreAddedCorectlyToCart() {
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		ProductsPage productsPage = homePage.goToProductsPage();
 		productsPage.addProductsByName(products);
 		CartPage cartPage = homePage.goToCartPage();
@@ -44,7 +43,7 @@ public class CartTests extends BaseTests {
 
 	@Test
 	public void increaceAndVerifyQuantityOfProductInCart_byAddingTwiceTheSameProduct() {
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		ProductsPage productsPage = homePage.goToProductsPage();
 		productsPage.addProductByName(productName);
 		productsPage.addProductByName(productName);
@@ -55,7 +54,7 @@ public class CartTests extends BaseTests {
 	@Test
 	public void increaceAndVerifyQuantityOfProductInCart_whileIncreasedQuantityInProductDetails() {
 		int quantity = 5;
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		ProductsPage productsPage = homePage.goToProductsPage();
 		ProductDetailsPage productDetailsPage = productsPage.goTintoProductDetailsByName(productName);
 		productDetailsPage.increaseQuantityByValue(quantity);
@@ -66,7 +65,7 @@ public class CartTests extends BaseTests {
 
 	@Test
 	public void verifyrProduct_priceQuantityTotalMultiplied() {
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		LoginPage loginPage = homePage.goToLoginPage();
 		homePage = loginPage.login(email1, password);
 		ProductsPage productsPage = homePage.goToProductsPage();
@@ -83,7 +82,7 @@ public class CartTests extends BaseTests {
 
 	@Test(dependsOnMethods = "verifyrProduct_priceQuantityTotalMultiplied")
 	public void removeProductFromCart() {
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		LoginPage loginPage = homePage.goToLoginPage();
 		homePage = loginPage.login(email1, password);
 		CartPage cartPage = homePage.goToCartPage();
@@ -93,7 +92,7 @@ public class CartTests extends BaseTests {
 
 	@Test
 	public void verifyrProduct_TotalAmount() {
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		LoginPage loginPage = homePage.goToLoginPage();
 		homePage = loginPage.login(email2, password);
 		ProductsPage productsPage = homePage.goToProductsPage();
@@ -105,7 +104,7 @@ public class CartTests extends BaseTests {
 
 	@Test(dependsOnMethods = "verifyrProduct_TotalAmount")
 	public void removeAllProductFromCart() {
-		HomePage homePage = new HomePage(DriverFactory.getDriver());
+		HomePage homePage = openSite();
 		LoginPage loginPage = homePage.goToLoginPage();
 		homePage = loginPage.login(email2, password);
 		CartPage cartPage = homePage.goToCartPage();
