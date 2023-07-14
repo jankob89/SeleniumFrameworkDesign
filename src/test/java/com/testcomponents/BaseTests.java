@@ -34,5 +34,4 @@ public class BaseTests {
 		}
 		return new HomePage(DriverManager.get());
 	}
-
 }

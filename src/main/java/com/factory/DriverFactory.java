@@ -27,6 +27,4 @@ public class DriverFactory {
 		driver.manage().deleteAllCookies();
 		return driver;
 	}
-	
-
 }
